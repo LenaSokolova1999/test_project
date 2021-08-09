@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "f2b98576767d4fd400fdab4ee99fe02f"
+build_time: [1628517096, 508507000]
+inputs:
+  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/ViewController.swift": [1628517092, 954810770]
+  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/AppDelegate.swift": [1628517092, 949503270]
+  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/SceneDelegate.swift": [1628517092, 952693431]
