@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkActivityChangeType"
+- "NetworkActivityPlugin"
+provides-nominal:
+- "4Moya25NetworkActivityChangeTypeO"
+- "4Moya21NetworkActivityPluginC"
+provides-member:
+- ["4Moya25NetworkActivityChangeTypeO", ""]
+- ["4Moya21NetworkActivityPluginC", ""]
+provides-dynamic-lookup:
+- "didReceive"
+- "networkActivityClosure"
+- "willSend"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Moya"
+- "MoyaError"
+- "NetworkActivityChangeType"
+- "NetworkActivityClosure"
+- "NetworkActivityPlugin"
+- "PluginType"
+- "RequestType"
+- !private "Response"
+- "Result"
+- "TargetType"
+- "Void"
+- !private "networkActivityClosure"
+depends-member:
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "began"]
+- !private ["SQ", "ended"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "began"]
+- !private ["SH", "ended"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["4Moya0A5ErrorO", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["4Moya25NetworkActivityChangeTypeO", "=="]
+- ["4Moya25NetworkActivityChangeTypeO", ""]
+- ["4Moya25NetworkActivityChangeTypeO", "__derived_enum_equals"]
+- ["4Moya25NetworkActivityChangeTypeO", "_rawHashValue"]
+- ["4Moya25NetworkActivityChangeTypeO", "began"]
+- ["4Moya25NetworkActivityChangeTypeO", "ended"]
+- ["4Moya25NetworkActivityChangeTypeO", "hash"]
+- ["4Moya25NetworkActivityChangeTypeO", "hashValue"]
+- ["4Moya21NetworkActivityPluginC", "Moya"]
+- ["4Moya21NetworkActivityPluginC", "MoyaError"]
+- ["4Moya21NetworkActivityPluginC", "NetworkActivityChangeType"]
+- ["4Moya21NetworkActivityPluginC", "NetworkActivityClosure"]
+- ["4Moya21NetworkActivityPluginC", "RequestType"]
+- ["4Moya21NetworkActivityPluginC", "Result"]
+- ["4Moya21NetworkActivityPluginC", "TargetType"]
+- ["4Moya21NetworkActivityPluginC", "Void"]
+- ["4Moya21NetworkActivityPluginC", ""]
+- ["4Moya21NetworkActivityPluginC", "deinit"]
+- ["4Moya21NetworkActivityPluginC", "didReceive"]
+- ["4Moya21NetworkActivityPluginC", "init"]
+- ["4Moya21NetworkActivityPluginC", "networkActivityClosure"]
+- ["4Moya21NetworkActivityPluginC", "prepare"]
+- ["4Moya21NetworkActivityPluginC", "process"]
+- ["4Moya21NetworkActivityPluginC", "willSend"]
+- ["4Moya10PluginTypeP", ""]
+- ["4Moya10PluginTypeP", "didReceive"]
+- !private ["4Moya10PluginTypeP", "networkActivityClosure"]
+- ["4Moya10PluginTypeP", "prepare"]
+- ["4Moya10PluginTypeP", "process"]
+- ["4Moya10PluginTypeP", "willSend"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "4Moya0A5ErrorO"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "4Moya25NetworkActivityChangeTypeO"
+- "4Moya21NetworkActivityPluginC"
+- "4Moya10PluginTypeP"
+- "So18UIFocusEnvironmentP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ab2deaa678b5a2e58e52300681e7ed9b"

@@ -1,0 +1,225 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["4Moya0A8ProviderC", ""]
+- ["4Moya0A8ProviderC", "defaultEndpointMapping"]
+- ["4Moya0A8ProviderC", "defaultRequestMapping"]
+- ["4Moya0A8ProviderC", "defaultAlamofireSession"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Endpoint"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MoyaError"
+- "MoyaProvider"
+- "RequestResultClosure"
+- "Session"
+- "Target"
+- !private "URL"
+- !private "URLSessionConfiguration"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "default"]
+- !private ["9Alamofire0A8ExtendedP", "headers"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "headers"]
+- !private ["Sl", "default"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["10Foundation13CustomNSErrorP", "parameterEncoding"]
+- ["10Foundation13CustomNSErrorP", "requestMapping"]
+- !private ["10Foundation13CustomNSErrorP", "underlying"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "headers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "init"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "init"]
+- !private ["4Moya8EndpointC", "init"]
+- !private ["4Moya8EndpointC", "urlRequest"]
+- !private ["4Moya22EndpointSampleResponseO", "networkResponse"]
+- !private ["SQ", ""]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "default"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "headers"]
+- !private ["SQ", "init"]
+- !private ["SQ", "success"]
+- !private ["SQ", "urlRequest"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "parameterEncoding"]
+- ["s5ErrorP", "requestMapping"]
+- !private ["s5ErrorP", "underlying"]
+- !private ["s25ExpressibleByArrayLiteralP", "default"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "default"]
+- !private ["9Alamofire11HTTPHeadersV", "default"]
+- !private ["SH", ""]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "default"]
+- !private ["SH", "failure"]
+- !private ["SH", "headers"]
+- !private ["SH", "init"]
+- !private ["SH", "success"]
+- !private ["SH", "urlRequest"]
+- ["10Foundation14LocalizedErrorP", "parameterEncoding"]
+- ["10Foundation14LocalizedErrorP", "requestMapping"]
+- !private ["10Foundation14LocalizedErrorP", "underlying"]
+- ["4Moya0A5ErrorO", ""]
+- ["4Moya0A5ErrorO", "parameterEncoding"]
+- ["4Moya0A5ErrorO", "requestMapping"]
+- !private ["4Moya0A5ErrorO", "underlying"]
+- ["4Moya0A8ProviderC", "Endpoint"]
+- !private ["4Moya0A8ProviderC", "MoyaError"]
+- ["4Moya0A8ProviderC", "RequestResultClosure"]
+- ["4Moya0A8ProviderC", "Session"]
+- !private ["4Moya0A8ProviderC", "URL"]
+- !private ["4Moya0A8ProviderC", "URLSessionConfiguration"]
+- ["4Moya0A8ProviderC", ""]
+- ["4Moya0A8ProviderC", "defaultAlamofireSession"]
+- ["4Moya0A8ProviderC", "defaultEndpointMapping"]
+- ["4Moya0A8ProviderC", "defaultRequestMapping"]
+- !private ["4Moya0A12ProviderTypeP", "Endpoint"]
+- !private ["4Moya0A12ProviderTypeP", "MoyaError"]
+- !private ["4Moya0A12ProviderTypeP", "Session"]
+- !private ["4Moya0A12ProviderTypeP", "URL"]
+- !private ["4Moya0A12ProviderTypeP", "URLSessionConfiguration"]
+- !private ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "headers"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "headers"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "headers"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Endpoint"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MoyaError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Session"]
+- !private ["7RxSwift18ReactiveCompatibleP", "URL"]
+- !private ["7RxSwift18ReactiveCompatibleP", "URLSessionConfiguration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "default"]
+- !private ["7RxSwift18ReactiveCompatibleP", "headers"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["9Alamofire15RequestDelegateP", "init"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "default"]
+- !private ["9Alamofire7SessionC", "init"]
+- !private ["9Alamofire20SessionStateProviderP", "init"]
+- !private ["4Moya10TargetTypeP", "headers"]
+- !private ["4Moya10TargetTypeP", "method"]
+- !private ["4Moya10TargetTypeP", "sampleData"]
+- !private ["4Moya10TargetTypeP", "task"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "absoluteString"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So25NSURLSessionConfigurationC", "headers"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "headers"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- "10Foundation13CustomNSErrorP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "4Moya8EndpointC"
+- !private "4Moya22EndpointSampleResponseO"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "9Alamofire11HTTPHeadersV"
+- !private "SH"
+- "10Foundation14LocalizedErrorP"
+- "4Moya0A5ErrorO"
+- "4Moya0A8ProviderC"
+- !private "4Moya0A12ProviderTypeP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire15RequestDelegateP"
+- !private "s6ResultO"
+- !private "ST"
+- !private "9Alamofire7SessionC"
+- !private "9Alamofire20SessionStateProviderP"
+- !private "4Moya10TargetTypeP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So25NSURLSessionConfigurationC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "44e53ea0cbd9700459a5b32c9ee00d49"

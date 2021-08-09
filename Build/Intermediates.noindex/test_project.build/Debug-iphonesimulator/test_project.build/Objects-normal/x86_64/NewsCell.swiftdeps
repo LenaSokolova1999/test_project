@@ -1,0 +1,922 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewsCell"
+provides-nominal:
+- "12test_project8NewsCellC"
+provides-member:
+- ["12test_project8NewsCellC", ""]
+provides-dynamic-lookup:
+- "_imgNews"
+- "descript"
+- "identifier"
+- "title"
+depends-top-level:
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSCoder"
+- "NewsCell"
+- "String"
+- "StringLiteralType"
+- !private "UIColor"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- "_imgNews"
+- !private "descript"
+- !private "fatalError"
+- "title"
+depends-member:
+- ["So15CALayerDelegateP", "CellStyle"]
+- ["So15CALayerDelegateP", "NSCoder"]
+- ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- ["So15CALayerDelegateP", "UIImageView"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", "UITableViewCell"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "_imgNews"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- ["So15CALayerDelegateP", "descript"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- ["So15CALayerDelegateP", "identifier"]
+- ["So15CALayerDelegateP", "imgNews"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "lineBreakMode"]
+- !private ["So15CALayerDelegateP", "numberOfLines"]
+- !private ["So15CALayerDelegateP", "snp"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- ["So15CALayerDelegateP", "title"]
+- !private ["So6CGRectV", "zero"]
+- ["s7CVarArgP", "CellStyle"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIImageView"]
+- !private ["s7CVarArgP", "UILabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_imgNews"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "descript"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "gray"]
+- !private ["s7CVarArgP", "imgNews"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lineBreakMode"]
+- !private ["s7CVarArgP", "numberOfLines"]
+- !private ["s7CVarArgP", "snp"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "title"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit13ConstraintDSLP", ""]
+- !private ["7SnapKit13ConstraintDSLP", "makeConstraints"]
+- !private ["7SnapKit15ConstraintMakerC", "centerY"]
+- !private ["7SnapKit15ConstraintMakerC", "height"]
+- !private ["7SnapKit15ConstraintMakerC", "left"]
+- !private ["7SnapKit15ConstraintMakerC", "right"]
+- !private ["7SnapKit15ConstraintMakerC", "top"]
+- !private ["7SnapKit15ConstraintMakerC", "width"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
+- ["7SnapKit26ConstraintMakerFinalizableC", ""]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
+- ["7SnapKit27ConstraintMakerPriortizableC", ""]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
+- ["7SnapKit24ConstraintMakerRelatableC", ""]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalToSuperview"]
+- ["7SnapKit25ConstraintRelatableTargetP", "CellStyle"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UILabel"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "_imgNews"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "contentView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "descript"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "fatalError"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "imgNews"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "lineBreakMode"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "numberOfLines"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "snp"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "textColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "title"]
+- !private ["7SnapKit17ConstraintViewDSLV", "makeConstraints"]
+- ["s28CustomDebugStringConvertibleP", "CellStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "UILabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_imgNews"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "descript"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "gray"]
+- !private ["s28CustomDebugStringConvertibleP", "imgNews"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lineBreakMode"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfLines"]
+- !private ["s28CustomDebugStringConvertibleP", "snp"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "lineBreakMode"]
+- !private ["s17CustomReflectableP", "numberOfLines"]
+- !private ["s17CustomReflectableP", "snp"]
+- !private ["s17CustomReflectableP", "textColor"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "CellStyle"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- !private ["s23CustomStringConvertibleP", "UILabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_imgNews"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "descript"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "gray"]
+- !private ["s23CustomStringConvertibleP", "imgNews"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lineBreakMode"]
+- !private ["s23CustomStringConvertibleP", "numberOfLines"]
+- !private ["s23CustomStringConvertibleP", "snp"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["Se", "lineBreakMode"]
+- !private ["Se", "numberOfLines"]
+- !private ["Se", "snp"]
+- !private ["Se", "textColor"]
+- !private ["Se", "zero"]
+- !private ["SE", "lineBreakMode"]
+- !private ["SE", "numberOfLines"]
+- !private ["SE", "snp"]
+- !private ["SE", "textColor"]
+- !private ["SE", "zero"]
+- ["SQ", "CellStyle"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UIImageView"]
+- !private ["SQ", "UILabel"]
+- ["SQ", ""]
+- !private ["SQ", "_imgNews"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "byWordWrapping"]
+- !private ["SQ", "contentView"]
+- !private ["SQ", "descript"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "gray"]
+- !private ["SQ", "imgNews"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lineBreakMode"]
+- !private ["SQ", "numberOfLines"]
+- !private ["SQ", "snp"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "title"]
+- !private ["SQ", "zero"]
+- !private ["s23ExpressibleByNilLiteralP", "lineBreakMode"]
+- !private ["s23ExpressibleByNilLiteralP", "numberOfLines"]
+- !private ["s23ExpressibleByNilLiteralP", "snp"]
+- !private ["s23ExpressibleByNilLiteralP", "textColor"]
+- ["SH", "CellStyle"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UIImageView"]
+- !private ["SH", "UILabel"]
+- ["SH", ""]
+- !private ["SH", "_imgNews"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "byWordWrapping"]
+- !private ["SH", "contentView"]
+- !private ["SH", "descript"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "gray"]
+- !private ["SH", "imgNews"]
+- !private ["SH", "init"]
+- !private ["SH", "lineBreakMode"]
+- !private ["SH", "numberOfLines"]
+- !private ["SH", "snp"]
+- !private ["SH", "textColor"]
+- !private ["SH", "title"]
+- ["7SnapKit20LayoutConstraintItemP", "CellStyle"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UILabel"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["7SnapKit20LayoutConstraintItemP", "_imgNews"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "contentView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "descript"]
+- !private ["7SnapKit20LayoutConstraintItemP", "fatalError"]
+- !private ["7SnapKit20LayoutConstraintItemP", "imgNews"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "lineBreakMode"]
+- !private ["7SnapKit20LayoutConstraintItemP", "numberOfLines"]
+- !private ["7SnapKit20LayoutConstraintItemP", "snp"]
+- !private ["7SnapKit20LayoutConstraintItemP", "textColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "title"]
+- ["So8NSCodingP", "CellStyle"]
+- ["So8NSCodingP", "NSCoder"]
+- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", "UITableViewCell"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "_imgNews"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "contentView"]
+- ["So8NSCodingP", "descript"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "gray"]
+- ["So8NSCodingP", "identifier"]
+- ["So8NSCodingP", "imgNews"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lineBreakMode"]
+- !private ["So8NSCodingP", "numberOfLines"]
+- !private ["So8NSCodingP", "snp"]
+- !private ["So8NSCodingP", "textColor"]
+- ["So8NSCodingP", "title"]
+- !private ["So9NSCopyingP", "gray"]
+- !private ["So21NSItemProviderReadingP", "gray"]
+- !private ["So21NSItemProviderWritingP", "gray"]
+- !private ["So15NSLineBreakModeV", "byWordWrapping"]
+- ["So8NSObjectC", "CellStyle"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_imgNews"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "contentView"]
+- ["So8NSObjectC", "descript"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "gray"]
+- ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "imgNews"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lineBreakMode"]
+- !private ["So8NSObjectC", "numberOfLines"]
+- !private ["So8NSObjectC", "snp"]
+- !private ["So8NSObjectC", "textColor"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectP", "CellStyle"]
+- ["So8NSObjectP", "NSCoder"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", "UITableViewCell"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_imgNews"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "contentView"]
+- ["So8NSObjectP", "descript"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "gray"]
+- ["So8NSObjectP", "identifier"]
+- ["So8NSObjectP", "imgNews"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lineBreakMode"]
+- !private ["So8NSObjectP", "numberOfLines"]
+- !private ["So8NSObjectP", "snp"]
+- !private ["So8NSObjectP", "textColor"]
+- ["So8NSObjectP", "title"]
+- !private ["So14NSSecureCodingP", "gray"]
+- ["12test_project8NewsCellC", "NSCoder"]
+- ["12test_project8NewsCellC", "String"]
+- !private ["12test_project8NewsCellC", "UIColor"]
+- ["12test_project8NewsCellC", "UIImageView"]
+- ["12test_project8NewsCellC", "UILabel"]
+- ["12test_project8NewsCellC", "UITableViewCell"]
+- ["12test_project8NewsCellC", ""]
+- ["12test_project8NewsCellC", "_imgNews"]
+- !private ["12test_project8NewsCellC", "contentView"]
+- ["12test_project8NewsCellC", "deinit"]
+- ["12test_project8NewsCellC", "descript"]
+- !private ["12test_project8NewsCellC", "fatalError"]
+- ["12test_project8NewsCellC", "identifier"]
+- !private ["12test_project8NewsCellC", "imgNews"]
+- ["12test_project8NewsCellC", "init"]
+- ["12test_project8NewsCellC", "title"]
+- !private ["Sq", "lineBreakMode"]
+- !private ["Sq", "numberOfLines"]
+- !private ["Sq", "snp"]
+- !private ["Sq", "textColor"]
+- !private ["SY", "byWordWrapping"]
+- ["7RxSwift18ReactiveCompatibleP", "CellStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UILabel"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "_imgNews"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addSubview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "descript"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "gray"]
+- !private ["7RxSwift18ReactiveCompatibleP", "imgNews"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lineBreakMode"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberOfLines"]
+- !private ["7RxSwift18ReactiveCompatibleP", "snp"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "title"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "snp"]
+- ["So29UIAccessibilityIdentificationP", "CellStyle"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
+- ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", "UITableViewCell"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "_imgNews"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- ["So29UIAccessibilityIdentificationP", "descript"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- ["So29UIAccessibilityIdentificationP", "identifier"]
+- ["So29UIAccessibilityIdentificationP", "imgNews"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "lineBreakMode"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfLines"]
+- !private ["So29UIAccessibilityIdentificationP", "snp"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- ["So29UIAccessibilityIdentificationP", "title"]
+- ["So12UIAppearanceP", "CellStyle"]
+- ["So12UIAppearanceP", "NSCoder"]
+- ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- ["So12UIAppearanceP", "UIImageView"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", "UITableViewCell"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "_imgNews"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "contentView"]
+- ["So12UIAppearanceP", "descript"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- ["So12UIAppearanceP", "identifier"]
+- ["So12UIAppearanceP", "imgNews"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "lineBreakMode"]
+- !private ["So12UIAppearanceP", "numberOfLines"]
+- !private ["So12UIAppearanceP", "snp"]
+- !private ["So12UIAppearanceP", "textColor"]
+- ["So12UIAppearanceP", "title"]
+- ["So21UIAppearanceContainerP", "CellStyle"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
+- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", "UITableViewCell"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "_imgNews"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- ["So21UIAppearanceContainerP", "descript"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- ["So21UIAppearanceContainerP", "identifier"]
+- ["So21UIAppearanceContainerP", "imgNews"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lineBreakMode"]
+- !private ["So21UIAppearanceContainerP", "numberOfLines"]
+- !private ["So21UIAppearanceContainerP", "snp"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- ["So21UIAppearanceContainerP", "title"]
+- !private ["So7UIColorC", "gray"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "lineBreakMode"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "numberOfLines"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "snp"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- ["So17UICoordinateSpaceP", "CellStyle"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
+- ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- ["So17UICoordinateSpaceP", "UIImageView"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", "UITableViewCell"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "_imgNews"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- ["So17UICoordinateSpaceP", "descript"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- ["So17UICoordinateSpaceP", "identifier"]
+- ["So17UICoordinateSpaceP", "imgNews"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "lineBreakMode"]
+- !private ["So17UICoordinateSpaceP", "numberOfLines"]
+- !private ["So17UICoordinateSpaceP", "snp"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- ["So17UICoordinateSpaceP", "title"]
+- ["So13UIDynamicItemP", "CellStyle"]
+- ["So13UIDynamicItemP", "NSCoder"]
+- ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- ["So13UIDynamicItemP", "UIImageView"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", "UITableViewCell"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "_imgNews"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- ["So13UIDynamicItemP", "descript"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- ["So13UIDynamicItemP", "identifier"]
+- ["So13UIDynamicItemP", "imgNews"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "lineBreakMode"]
+- !private ["So13UIDynamicItemP", "numberOfLines"]
+- !private ["So13UIDynamicItemP", "snp"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- ["So13UIDynamicItemP", "title"]
+- ["So18UIFocusEnvironmentP", "CellStyle"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
+- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", "UITableViewCell"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "_imgNews"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- ["So18UIFocusEnvironmentP", "descript"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- ["So18UIFocusEnvironmentP", "identifier"]
+- ["So18UIFocusEnvironmentP", "imgNews"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lineBreakMode"]
+- !private ["So18UIFocusEnvironmentP", "numberOfLines"]
+- !private ["So18UIFocusEnvironmentP", "snp"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- ["So18UIFocusEnvironmentP", "title"]
+- ["So11UIFocusItemP", "CellStyle"]
+- ["So11UIFocusItemP", "NSCoder"]
+- ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", "UIImageView"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", "UITableViewCell"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "_imgNews"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "contentView"]
+- ["So11UIFocusItemP", "descript"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- ["So11UIFocusItemP", "identifier"]
+- ["So11UIFocusItemP", "imgNews"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "lineBreakMode"]
+- !private ["So11UIFocusItemP", "numberOfLines"]
+- !private ["So11UIFocusItemP", "snp"]
+- !private ["So11UIFocusItemP", "textColor"]
+- ["So11UIFocusItemP", "title"]
+- ["So20UIFocusItemContainerP", "CellStyle"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
+- ["So20UIFocusItemContainerP", "String"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- ["So20UIFocusItemContainerP", "UIImageView"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", "UITableViewCell"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "_imgNews"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "contentView"]
+- ["So20UIFocusItemContainerP", "descript"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- ["So20UIFocusItemContainerP", "identifier"]
+- ["So20UIFocusItemContainerP", "imgNews"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "lineBreakMode"]
+- !private ["So20UIFocusItemContainerP", "numberOfLines"]
+- !private ["So20UIFocusItemContainerP", "snp"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- ["So20UIFocusItemContainerP", "title"]
+- ["So27UIGestureRecognizerDelegateP", "CellStyle"]
+- ["So27UIGestureRecognizerDelegateP", "NSCoder"]
+- ["So27UIGestureRecognizerDelegateP", "String"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIColor"]
+- ["So27UIGestureRecognizerDelegateP", "UIImageView"]
+- ["So27UIGestureRecognizerDelegateP", "UILabel"]
+- ["So27UIGestureRecognizerDelegateP", "UITableViewCell"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "_imgNews"]
+- !private ["So27UIGestureRecognizerDelegateP", "contentView"]
+- ["So27UIGestureRecognizerDelegateP", "descript"]
+- !private ["So27UIGestureRecognizerDelegateP", "fatalError"]
+- ["So27UIGestureRecognizerDelegateP", "identifier"]
+- ["So27UIGestureRecognizerDelegateP", "imgNews"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "title"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "snp"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "lineBreakMode"]
+- !private ["So7UILabelC", "numberOfLines"]
+- !private ["So7UILabelC", "snp"]
+- !private ["So7UILabelC", "textColor"]
+- ["So24UILargeContentViewerItemP", "CellStyle"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
+- ["So24UILargeContentViewerItemP", "String"]
+- !private ["So24UILargeContentViewerItemP", "UIColor"]
+- ["So24UILargeContentViewerItemP", "UIImageView"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", "UITableViewCell"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "_imgNews"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "contentView"]
+- ["So24UILargeContentViewerItemP", "descript"]
+- !private ["So24UILargeContentViewerItemP", "fatalError"]
+- ["So24UILargeContentViewerItemP", "identifier"]
+- ["So24UILargeContentViewerItemP", "imgNews"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "lineBreakMode"]
+- !private ["So24UILargeContentViewerItemP", "numberOfLines"]
+- !private ["So24UILargeContentViewerItemP", "snp"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- ["So24UILargeContentViewerItemP", "title"]
+- ["So30UIPasteConfigurationSupportingP", "CellStyle"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "_imgNews"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- ["So30UIPasteConfigurationSupportingP", "descript"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- ["So30UIPasteConfigurationSupportingP", "identifier"]
+- ["So30UIPasteConfigurationSupportingP", "imgNews"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lineBreakMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfLines"]
+- !private ["So30UIPasteConfigurationSupportingP", "snp"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- ["So30UIPasteConfigurationSupportingP", "title"]
+- ["So11UIResponderC", "CellStyle"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "_imgNews"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "contentView"]
+- ["So11UIResponderC", "descript"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "identifier"]
+- ["So11UIResponderC", "imgNews"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "lineBreakMode"]
+- !private ["So11UIResponderC", "numberOfLines"]
+- !private ["So11UIResponderC", "snp"]
+- !private ["So11UIResponderC", "textColor"]
+- ["So11UIResponderC", "title"]
+- ["So30UIResponderStandardEditActionsP", "CellStyle"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "_imgNews"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- ["So30UIResponderStandardEditActionsP", "descript"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- ["So30UIResponderStandardEditActionsP", "identifier"]
+- ["So30UIResponderStandardEditActionsP", "imgNews"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lineBreakMode"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfLines"]
+- !private ["So30UIResponderStandardEditActionsP", "snp"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- ["So30UIResponderStandardEditActionsP", "title"]
+- ["So15UITableViewCellC", "CellStyle"]
+- ["So15UITableViewCellC", "NSCoder"]
+- ["So15UITableViewCellC", "String"]
+- !private ["So15UITableViewCellC", "UIColor"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "UITableViewCell"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "_imgNews"]
+- !private ["So15UITableViewCellC", "contentView"]
+- ["So15UITableViewCellC", "descript"]
+- !private ["So15UITableViewCellC", "fatalError"]
+- ["So15UITableViewCellC", "identifier"]
+- ["So15UITableViewCellC", "imgNews"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "title"]
+- ["So18UITraitEnvironmentP", "CellStyle"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
+- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", "UITableViewCell"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "_imgNews"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- ["So18UITraitEnvironmentP", "descript"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- ["So18UITraitEnvironmentP", "identifier"]
+- ["So18UITraitEnvironmentP", "imgNews"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lineBreakMode"]
+- !private ["So18UITraitEnvironmentP", "numberOfLines"]
+- !private ["So18UITraitEnvironmentP", "snp"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- ["So18UITraitEnvironmentP", "title"]
+- ["So23UIUserActivityRestoringP", "CellStyle"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
+- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", "UITableViewCell"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "_imgNews"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "contentView"]
+- ["So23UIUserActivityRestoringP", "descript"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- ["So23UIUserActivityRestoringP", "identifier"]
+- ["So23UIUserActivityRestoringP", "imgNews"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "lineBreakMode"]
+- !private ["So23UIUserActivityRestoringP", "numberOfLines"]
+- !private ["So23UIUserActivityRestoringP", "snp"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- ["So23UIUserActivityRestoringP", "title"]
+- ["So6UIViewC", "CellStyle"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UITableViewCell"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "_imgNews"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "contentView"]
+- ["So6UIViewC", "descript"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "identifier"]
+- ["So6UIViewC", "imgNews"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "lineBreakMode"]
+- !private ["So6UIViewC", "numberOfLines"]
+- !private ["So6UIViewC", "snp"]
+- !private ["So6UIViewC", "textColor"]
+- ["So6UIViewC", "title"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "gray"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CellStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_imgNews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgNews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineBreakMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfLines"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CellStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UILabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_imgNews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descript"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgNews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lineBreakMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfLines"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "snp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "lineBreakMode"]
+- !private ["s21_ObjectiveCBridgeableP", "numberOfLines"]
+- !private ["s21_ObjectiveCBridgeableP", "snp"]
+- !private ["s21_ObjectiveCBridgeableP", "textColor"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "CellStyle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UILabel"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "_imgNews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "descript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "imgNews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "lineBreakMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfLines"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "snp"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "title"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "7SnapKit23ConstraintAttributesDSLP"
+- !private "7SnapKit28ConstraintBasicAttributesDSLP"
+- !private "7SnapKit13ConstraintDSLP"
+- !private "7SnapKit15ConstraintMakerC"
+- !private "7SnapKit23ConstraintMakerEditableC"
+- !private "7SnapKit25ConstraintMakerExtendableC"
+- "7SnapKit26ConstraintMakerFinalizableC"
+- "7SnapKit27ConstraintMakerPriortizableC"
+- "7SnapKit24ConstraintMakerRelatableC"
+- "7SnapKit25ConstraintRelatableTargetP"
+- !private "7SnapKit17ConstraintViewDSLV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "7SnapKit20LayoutConstraintItemP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So15NSLineBreakModeV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "12test_project8NewsCellC"
+- !private "Sq"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1598e1214078b14c0c4020e21f5d7570"

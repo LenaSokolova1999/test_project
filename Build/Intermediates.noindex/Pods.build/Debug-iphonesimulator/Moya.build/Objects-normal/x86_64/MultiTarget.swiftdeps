@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MultiTarget"
+provides-nominal:
+- "4Moya11MultiTargetO"
+provides-member:
+- ["4Moya11MultiTargetO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AccessTokenAuthorizable"
+- "AssignmentPrecedence"
+- "AuthorizationType"
+- "CastingPrecedence"
+- "Data"
+- !private "Method"
+- "Moya"
+- "MultiTarget"
+- "String"
+- "TargetType"
+- "Task"
+- "URL"
+- "ValidationType"
+- !private "target"
+depends-member:
+- !private ["4Moya23AccessTokenAuthorizableP", "MultiTarget"]
+- ["4Moya23AccessTokenAuthorizableP", ""]
+- ["4Moya23AccessTokenAuthorizableP", "authorizationType"]
+- ["4Moya23AccessTokenAuthorizableP", "baseURL"]
+- ["4Moya23AccessTokenAuthorizableP", "headers"]
+- ["4Moya23AccessTokenAuthorizableP", "method"]
+- ["4Moya23AccessTokenAuthorizableP", "path"]
+- ["4Moya23AccessTokenAuthorizableP", "sampleData"]
+- ["4Moya23AccessTokenAuthorizableP", "target"]
+- ["4Moya23AccessTokenAuthorizableP", "task"]
+- ["4Moya23AccessTokenAuthorizableP", "validationType"]
+- !private ["4Moya11MultiTargetO", "AccessTokenAuthorizable"]
+- ["4Moya11MultiTargetO", "AuthorizationType"]
+- ["4Moya11MultiTargetO", "Data"]
+- ["4Moya11MultiTargetO", "Moya"]
+- !private ["4Moya11MultiTargetO", "MultiTarget"]
+- ["4Moya11MultiTargetO", "String"]
+- ["4Moya11MultiTargetO", "TargetType"]
+- ["4Moya11MultiTargetO", "Task"]
+- ["4Moya11MultiTargetO", "URL"]
+- ["4Moya11MultiTargetO", "ValidationType"]
+- ["4Moya11MultiTargetO", ""]
+- ["4Moya11MultiTargetO", "authorizationType"]
+- ["4Moya11MultiTargetO", "baseURL"]
+- ["4Moya11MultiTargetO", "headers"]
+- ["4Moya11MultiTargetO", "init"]
+- ["4Moya11MultiTargetO", "method"]
+- ["4Moya11MultiTargetO", "path"]
+- ["4Moya11MultiTargetO", "sampleData"]
+- ["4Moya11MultiTargetO", "target"]
+- ["4Moya11MultiTargetO", "task"]
+- ["4Moya11MultiTargetO", "validationType"]
+- !private ["4Moya10TargetTypeP", "MultiTarget"]
+- ["4Moya10TargetTypeP", ""]
+- ["4Moya10TargetTypeP", "authorizationType"]
+- ["4Moya10TargetTypeP", "baseURL"]
+- ["4Moya10TargetTypeP", "headers"]
+- ["4Moya10TargetTypeP", "method"]
+- ["4Moya10TargetTypeP", "path"]
+- ["4Moya10TargetTypeP", "sampleData"]
+- ["4Moya10TargetTypeP", "target"]
+- ["4Moya10TargetTypeP", "task"]
+- ["4Moya10TargetTypeP", "validationType"]
+depends-nominal:
+- "4Moya23AccessTokenAuthorizableP"
+- "4Moya11MultiTargetO"
+- "4Moya10TargetTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dc16a3ccc440f2ab249189d3aa49f0ba"

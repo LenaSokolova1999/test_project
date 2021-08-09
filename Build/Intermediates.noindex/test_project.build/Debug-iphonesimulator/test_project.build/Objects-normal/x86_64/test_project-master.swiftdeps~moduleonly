@@ -1,7 +1,11 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
-options: "f2b98576767d4fd400fdab4ee99fe02f"
-build_time: [1628517096, 508507000]
+options: "23f7fdad1c82a6d57d7aef598f0ed4ea"
+build_time: [1628510806, 250934000]
 inputs:
-  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/ViewController.swift": [1628517092, 954810770]
-  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/AppDelegate.swift": [1628517092, 949503270]
-  "/Users/kvs/Desktop/Lessones Swift/Lessones/test_project/test_project/SceneDelegate.swift": [1628517092, 952693431]
+  "/Users/kvs/Downloads/test_project 2/test_project/ViewController.swift": [1628510806, 143747354]
+  "/Users/kvs/Downloads/test_project 2/test_project/NewsResponseModel.swift": [1628451532, 0]
+  "/Users/kvs/Downloads/test_project 2/test_project/AppDelegate.swift": [1628335950, 0]
+  "/Users/kvs/Downloads/test_project 2/test_project/NewsCell.swift": [1628263506, 0]
+  "/Users/kvs/Downloads/test_project 2/test_project/NewsViewController.swift": [1628510806, 105291370]
+  "/Users/kvs/Downloads/test_project 2/test_project/SceneDelegate.swift": [1628084674, 0]
+  "/Users/kvs/Downloads/test_project 2/test_project/NewsTarget.swift": [1628494766, 369552242]

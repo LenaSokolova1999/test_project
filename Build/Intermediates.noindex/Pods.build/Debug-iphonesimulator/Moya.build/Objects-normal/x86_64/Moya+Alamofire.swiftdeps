@@ -1,0 +1,460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Session"
+- "Request"
+- "DownloadRequest"
+- "UploadRequest"
+- "DataRequest"
+- "URLRequestConvertible"
+- "Method"
+- "ParameterEncoding"
+- "JSONEncoding"
+- "URLEncoding"
+- "RequestMultipartFormData"
+- "DownloadDestination"
+- "RequestInterceptor"
+- "CancellableToken"
+- "RequestableCompletion"
+- "Requestable"
+- "MoyaRequestInterceptor"
+provides-nominal:
+- "9Alamofire7RequestC"
+- "4Moya16CancellableTokenC"
+- "4Moya11RequestableP"
+- "9Alamofire11DataRequestC"
+- "9Alamofire15DownloadRequestC"
+- "4Moya0A18RequestInterceptorC"
+provides-member:
+- ["9Alamofire7RequestC", ""]
+- ["4Moya16CancellableTokenC", ""]
+- ["4Moya11RequestableP", ""]
+- ["9Alamofire11DataRequestC", ""]
+- ["9Alamofire15DownloadRequestC", ""]
+- ["4Moya0A18RequestInterceptorC", ""]
+provides-dynamic-lookup:
+- "adapt"
+- "cancel"
+- "cancelAction"
+- "debugDescription"
+- "internalWillSend"
+- "isCancelled"
+- "lock"
+- "prepare"
+- "request"
+- "response"
+- "sessionHeaders"
+- "willSend"
+depends-top-level:
+- !private "!"
+- !private "??"
+- "Alamofire"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Cancellable"
+- "CancellableToken"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "Data"
+- "DataRequest"
+- !private "Dictionary"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- !private "DispatchTime"
+- "DownloadDestination"
+- "DownloadRequest"
+- "Error"
+- "FloatLiteralType"
+- "HTTPURLResponse"
+- "IntegerLiteralType"
+- "JSONEncoding"
+- "Method"
+- "MoyaRequestInterceptor"
+- "NSRecursiveLock"
+- "ParameterEncoding"
+- "Request"
+- "RequestInterceptor"
+- "RequestMultipartFormData"
+- "RequestType"
+- "Requestable"
+- "RequestableCompletion"
+- "Result"
+- "Self"
+- "Session"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "URLEncoding"
+- "URLRequest"
+- "URLRequestConvertible"
+- "UploadRequest"
+- "Void"
+- !private "cancelAction"
+- !private "delegate"
+- !private "internalWillSend"
+- !private "isCancelled"
+- !private "lock"
+- !private "prepare"
+- !private "response"
+- !private "willSend"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "httpAdditionalHeaders"]
+- !private ["s7CVarArgP", "httpAdditionalHeaders"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s7CVarArgP", "wait"]
+- ["4Moya11CancellableP", "DispatchSemaphore"]
+- !private ["4Moya11CancellableP", "DispatchTime"]
+- ["4Moya11CancellableP", ""]
+- ["4Moya11CancellableP", "cancel"]
+- !private ["4Moya11CancellableP", "cancelAction"]
+- ["4Moya11CancellableP", "debugDescription"]
+- ["4Moya11CancellableP", "isCancelled"]
+- !private ["4Moya11CancellableP", "lock"]
+- !private ["4Moya11CancellableP", "request"]
+- ["4Moya16CancellableTokenC", "DispatchSemaphore"]
+- !private ["4Moya16CancellableTokenC", "DispatchTime"]
+- ["4Moya16CancellableTokenC", "Request"]
+- ["4Moya16CancellableTokenC", "String"]
+- ["4Moya16CancellableTokenC", "Void"]
+- !private ["4Moya16CancellableTokenC", ""]
+- ["4Moya16CancellableTokenC", "cancel"]
+- ["4Moya16CancellableTokenC", "cancelAction"]
+- ["4Moya16CancellableTokenC", "debugDescription"]
+- ["4Moya16CancellableTokenC", "deinit"]
+- ["4Moya16CancellableTokenC", "init"]
+- ["4Moya16CancellableTokenC", "isCancelled"]
+- !private ["4Moya16CancellableTokenC", "lock"]
+- ["4Moya16CancellableTokenC", "request"]
+- !private ["SL", "distantFuture"]
+- ["s28CustomDebugStringConvertibleP", "DispatchSemaphore"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAction"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "httpAdditionalHeaders"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- ["s23CustomStringConvertibleP", "Destination"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "authenticate"]
+- ["s23CustomStringConvertibleP", "cURLDescription"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "httpAdditionalHeaders"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- ["s23CustomStringConvertibleP", "request"]
+- ["s23CustomStringConvertibleP", "response"]
+- ["s23CustomStringConvertibleP", "sessionHeaders"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- ["9Alamofire11DataRequestC", "DispatchQueue"]
+- ["9Alamofire11DataRequestC", "RequestableCompletion"]
+- ["9Alamofire11DataRequestC", "Self"]
+- ["9Alamofire11DataRequestC", ""]
+- ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "error"]
+- !private ["9Alamofire12DataResponseV", "request"]
+- !private ["9Alamofire12DataResponseV", "response"]
+- !private ["Se", "callAsFunction"]
+- ["So18OS_dispatch_objectC", ""]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- ["9Alamofire15DownloadRequestC", "Destination"]
+- ["9Alamofire15DownloadRequestC", "DispatchQueue"]
+- ["9Alamofire15DownloadRequestC", "RequestableCompletion"]
+- ["9Alamofire15DownloadRequestC", "Self"]
+- ["9Alamofire15DownloadRequestC", ""]
+- ["9Alamofire15DownloadRequestC", "response"]
+- !private ["9Alamofire16DownloadResponseV", "error"]
+- !private ["9Alamofire16DownloadResponseV", "request"]
+- !private ["9Alamofire16DownloadResponseV", "response"]
+- !private ["SE", "callAsFunction"]
+- ["SQ", "Destination"]
+- ["SQ", "Self"]
+- ["SQ", ""]
+- ["SQ", "authenticate"]
+- ["SQ", "cURLDescription"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "httpAdditionalHeaders"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- ["SQ", "request"]
+- ["SQ", "response"]
+- ["SQ", "sessionHeaders"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "success"]
+- !private ["SQ", "unlock"]
+- !private ["SQ", "wait"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- ["SH", "Destination"]
+- ["SH", "Self"]
+- ["SH", "authenticate"]
+- ["SH", "cURLDescription"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "cancel"]
+- !private ["SH", "delegate"]
+- !private ["SH", "httpAdditionalHeaders"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- ["SH", "request"]
+- ["SH", "response"]
+- ["SH", "sessionHeaders"]
+- !private ["SH", "signal"]
+- !private ["SH", "success"]
+- !private ["SH", "unlock"]
+- !private ["SH", "wait"]
+- ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "unlock"]
+- ["4Moya0A18RequestInterceptorC", "Alamofire"]
+- ["4Moya0A18RequestInterceptorC", "Error"]
+- ["4Moya0A18RequestInterceptorC", "NSRecursiveLock"]
+- ["4Moya0A18RequestInterceptorC", "Result"]
+- ["4Moya0A18RequestInterceptorC", "URLRequest"]
+- ["4Moya0A18RequestInterceptorC", "Void"]
+- ["4Moya0A18RequestInterceptorC", ""]
+- ["4Moya0A18RequestInterceptorC", "adapt"]
+- ["4Moya0A18RequestInterceptorC", "deinit"]
+- ["4Moya0A18RequestInterceptorC", "init"]
+- !private ["4Moya0A18RequestInterceptorC", "internalWillSend"]
+- !private ["4Moya0A18RequestInterceptorC", "lock"]
+- ["4Moya0A18RequestInterceptorC", "prepare"]
+- ["4Moya0A18RequestInterceptorC", "retry"]
+- ["4Moya0A18RequestInterceptorC", "willSend"]
+- !private ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "httpAdditionalHeaders"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "httpAdditionalHeaders"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "lockBeforeDate"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "signal"]
+- ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "httpAdditionalHeaders"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "lockBeforeDate"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "signal"]
+- ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So8NSObjectP", "wait"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "signal"]
+- ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["Sq", "callAsFunction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "httpAdditionalHeaders"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "signal"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "wait"]
+- ["9Alamofire7RequestC", "Destination"]
+- ["9Alamofire7RequestC", "DispatchQueue"]
+- ["9Alamofire7RequestC", "RequestableCompletion"]
+- ["9Alamofire7RequestC", "Self"]
+- ["9Alamofire7RequestC", "String"]
+- ["9Alamofire7RequestC", ""]
+- ["9Alamofire7RequestC", "authenticate"]
+- ["9Alamofire7RequestC", "cURLDescription"]
+- !private ["9Alamofire7RequestC", "cancel"]
+- !private ["9Alamofire7RequestC", "delegate"]
+- ["9Alamofire7RequestC", "request"]
+- ["9Alamofire7RequestC", "response"]
+- ["9Alamofire7RequestC", "sessionHeaders"]
+- ["9Alamofire14RequestAdapterP", "NSRecursiveLock"]
+- ["9Alamofire14RequestAdapterP", ""]
+- ["9Alamofire14RequestAdapterP", "adapt"]
+- !private ["9Alamofire14RequestAdapterP", "internalWillSend"]
+- !private ["9Alamofire14RequestAdapterP", "lock"]
+- !private ["9Alamofire14RequestAdapterP", "prepare"]
+- ["9Alamofire14RequestAdapterP", "retry"]
+- !private ["9Alamofire14RequestAdapterP", "willSend"]
+- !private ["9Alamofire15RequestDelegateP", "sessionConfiguration"]
+- ["9Alamofire18RequestInterceptorP", "NSRecursiveLock"]
+- ["9Alamofire18RequestInterceptorP", ""]
+- ["9Alamofire18RequestInterceptorP", "adapt"]
+- !private ["9Alamofire18RequestInterceptorP", "internalWillSend"]
+- !private ["9Alamofire18RequestInterceptorP", "lock"]
+- !private ["9Alamofire18RequestInterceptorP", "prepare"]
+- ["9Alamofire18RequestInterceptorP", "retry"]
+- !private ["9Alamofire18RequestInterceptorP", "willSend"]
+- ["9Alamofire14RequestRetrierP", "NSRecursiveLock"]
+- ["9Alamofire14RequestRetrierP", ""]
+- ["9Alamofire14RequestRetrierP", "adapt"]
+- !private ["9Alamofire14RequestRetrierP", "internalWillSend"]
+- !private ["9Alamofire14RequestRetrierP", "lock"]
+- !private ["9Alamofire14RequestRetrierP", "prepare"]
+- ["9Alamofire14RequestRetrierP", "retry"]
+- !private ["9Alamofire14RequestRetrierP", "willSend"]
+- ["4Moya11RequestTypeP", "Destination"]
+- ["4Moya11RequestTypeP", "Self"]
+- ["4Moya11RequestTypeP", ""]
+- ["4Moya11RequestTypeP", "authenticate"]
+- ["4Moya11RequestTypeP", "cURLDescription"]
+- !private ["4Moya11RequestTypeP", "cancel"]
+- !private ["4Moya11RequestTypeP", "delegate"]
+- ["4Moya11RequestTypeP", "request"]
+- ["4Moya11RequestTypeP", "response"]
+- ["4Moya11RequestTypeP", "sessionHeaders"]
+- ["4Moya11RequestableP", "Destination"]
+- ["4Moya11RequestableP", "DispatchQueue"]
+- ["4Moya11RequestableP", "RequestableCompletion"]
+- ["4Moya11RequestableP", "Self"]
+- ["4Moya11RequestableP", ""]
+- ["4Moya11RequestableP", "response"]
+- !private ["s6ResultO", "success"]
+- !private ["So25NSURLSessionConfigurationC", "httpAdditionalHeaders"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpAdditionalHeaders"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "httpAdditionalHeaders"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- "s7CVarArgP"
+- "4Moya11CancellableP"
+- "4Moya16CancellableTokenC"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- "So21OS_dispatch_semaphoreC"
+- !private "8Dispatch0A4TimeV"
+- "9Alamofire15DownloadRequestC"
+- !private "9Alamofire16DownloadResponseV"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "7RxSwift4LockP"
+- "4Moya0A18RequestInterceptorC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "So9OS_objectC"
+- !private "Sq"
+- "7RxSwift18ReactiveCompatibleP"
+- "9Alamofire7RequestC"
+- "9Alamofire14RequestAdapterP"
+- !private "9Alamofire15RequestDelegateP"
+- "9Alamofire18RequestInterceptorP"
+- "9Alamofire14RequestRetrierP"
+- "4Moya11RequestTypeP"
+- "4Moya11RequestableP"
+- !private "s6ResultO"
+- !private "So25NSURLSessionConfigurationC"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kvs/Downloads/test_project 2/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/kvs/Downloads/test_project 2/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Volumes/SberExternal/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9d7020d9a58a3136feb594c6b062ba2c"

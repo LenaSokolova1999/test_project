@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "b03e700793ff5f0666bd720719e4e315"
+build_time: [1628491728, 616113000]
+inputs:
+  "/Users/kvs/Downloads/test_project 2/Pods/Moya-ObjectMapper/Source/RxSwift/ObservableType+ObjectMapper.swift": [1628490007, 355357025]
+  "/Users/kvs/Downloads/test_project 2/Pods/Moya-ObjectMapper/Source/Core/Response+ObjectMapper.swift": [1628490007, 351613514]
+  "/Users/kvs/Downloads/test_project 2/Pods/Moya-ObjectMapper/Source/RxSwift/Single+ObjectMapper.swift": [1628490007, 355809250]
